@@ -7,4 +7,7 @@ class Vehicle {
     honk() {
         return "Beep";
     }
+    toString() {
+        return `The vehicle is a ${this.make} ${this.model} from ${this.year}`;
+    }
 }
